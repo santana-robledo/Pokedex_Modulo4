@@ -1,1 +1,24 @@
-El programa era parecido a uno que hicimos en clase, en el que mediante un request imprimía la imágen del pokemon que quisieses, así que solo había que hacer modificaciones, había que extraer más datos y ahora imprimirlos en un archivo, lo primero fue pedir más datos, hice un diccionario para irlos guardadno, escogí los atributos de peso, altura y demás, seguidamente sus movimientos, al ser muchos movimientos decidí hacer un archivo json por cada pokemon capturado, así sería más ordenado en mi opinión, luego llegó la hora de crear el directorio, primero intenté con la librería os, pero daba muchos problemas cuando ya estabas en el directorio o cuando la carpeta ya estaba creada, así que me decidí por la librería Path, esta no daba ninguno de estos problemas, despues solo tuve que ver como se guardaban los archivos con esta librería, e iba pasando los datos conforme se cerraba la imágen del Pokemon.
+# Pokédex en Python
+
+## Descripción
+Proyecto individual desarrollado en Python que permite buscar Pokémon mediante la PokéAPI y consultar información básica de cada uno a través de una interfaz gráfica.
+
+## Funcionalidades
+- Búsqueda de Pokémon por nombre o identificador.
+- Consulta de información mediante una API REST.
+- Visualización de la imagen del Pokémon.
+- Obtención de estadísticas, tipos, altura, peso y experiencia base.
+- Consulta de los movimientos disponibles.
+- Almacenamiento de la información en archivos JSON.
+- Interfaz gráfica con opciones para buscar Pokémon y salir de la aplicación.
+
+## Tecnologías
+- Python
+- Tkinter
+- Requests
+- Pillow (PIL)
+- JSON
+- PokéAPI
+
+## Objetivo
+Practicar el consumo de APIs, el procesamiento de datos JSON, la manipulación de imágenes, el manejo de archivos y el desarrollo de interfaces gráficas en Python.
